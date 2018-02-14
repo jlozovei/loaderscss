@@ -1,0 +1,27 @@
+{
+  "name": "loaderscss",
+  "version": "1.0.0",
+  "description": "Simple + awesome css-only crafted loaders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlozovei/loaderscss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlozovei/loaderscss/issues"
+  },
+  "homepage": "https://github.com/jlozovei/loaderscss#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "node-sass": "^4.7.2",
+    "sass-lint": "^1.12.1"
+  }
+}
