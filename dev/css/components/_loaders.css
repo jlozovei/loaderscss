@@ -1,0 +1,27 @@
+@import './loaders-layout/_bars.css';
+@import './loaders-layout/_circle.css';
+@import './loaders-layout/_dots.css';
+@import './loaders-layout/_squares.css';
+
+@import './loaders-animation/_loaders-animation.css';
+
+.loader{
+	position: relative;
+	display: flex;
+	
+	&-example{
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 150px;
+		padding: 2rem;
+		border: 1px solid $lightGrey;
+
+		.loader{
+			margin: auto;
+
+			&--square-double{ max-width: 50%; }
+		}
+	}
+}

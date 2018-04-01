@@ -1,0 +1,31 @@
+.loader{
+	&--suspension{
+		animation: suspension 780ms linear infinite;
+		animation-delay: 300ms;
+
+		&:before, &:after{ animation: suspension 780ms linear infinite; }
+
+		&:before{ animation-delay: 100ms; }
+		&:after{ animation-delay: 500ms; }
+	}
+
+	&--gravity{
+		animation: gravity 780ms linear infinite;
+		animation-delay: 300ms;
+
+		&:before, &:after{ animation: gravity 780ms linear infinite; }
+
+		&:before{ animation-delay: 100ms; }
+		&:after{ animation-delay: 500ms; }
+	}
+
+	&--progression{
+		animation: progression 780ms linear infinite;
+		animation-delay: 300ms;
+
+		&:before, &:after{ animation: progression 780ms linear infinite; }
+
+		&:before{ animation-delay: 100ms; }
+		&:after{ animation-delay: 500ms; }
+	}
+}

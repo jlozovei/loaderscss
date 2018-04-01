@@ -1,0 +1,74 @@
+/*
+*
+* Generic Animations
+*
+*/
+
+@keyframes suspension{
+	0%, 70%, 100%{ box-shadow: 0 0 0 0; }
+	25%{ box-shadow: 0 0 0 5px; }
+}
+
+@keyframes gravity{
+	0%, 70%, 100%{ box-shadow: 0 0 0 1px; }
+	25%{ box-shadow: 0 -2rem 0 1px; }
+}
+
+@keyframes progression{
+	0%, 70%, 100%{ box-shadow: 0 0 0 0; height: 3rem; }
+	25%{ box-shadow: 0 -10px 0 0, 0 -10px 0 0; height: 4rem; }
+}
+
+
+
+/*
+*
+* Circle Animations
+*
+*/
+
+@keyframes infiniteCircle{
+	0%{ transform: rotateZ(0); }
+	100%{ transform: rotateZ(360deg); }
+}
+
+@keyframes bounceCircle{
+	0%, 100%{ transform: scale(0); }
+	50%{ transform: scale(1); }
+}
+
+@keyframes rippleCircle{
+	0%{ opacity: 1; transform: scale(.75); }
+	50%{ opacity: .5; transform: scale(1.25); }
+	85%{ opacity: 0; transform: scale(1.5); }
+	100%{ opacity: 0; transform: scale(.85); }
+}
+
+
+
+/*
+*
+* Square Animations
+*
+*/
+
+@keyframes squareTranslate{
+	0%{ transform: perspective(1000px) rotate(0, 0); }
+	25%{ transform: perspective(1000px) rotateX(180deg) rotateY(0); }
+	50%{ transform: perspective(1000px) rotateX(180deg) rotateY(180deg); }
+	75%{ transform: perspective(1000px) rotateX(0) rotateY(180deg); }
+	100%{ transform: perspective(1000px) rotateX(0) rotateY(360deg); }
+}
+
+@keyframes squareDouble{
+	0%{ left: 0; top: 0; transform: rotateZ(0); }
+	25%{ left: calc(100% - 25px); top: 0; transform: rotateZ(90deg); }
+	50%{ left: calc(100% - 25px); top: calc(100% - 25px); transform: rotateZ(180deg); }
+	75%{ left: 0; top: calc(100% - 25px); transform: rotateZ(270deg); }
+	100%{ left: 0; top: 0; transform: rotateZ(360deg); }
+}
+
+@keyframes squareRotate{
+	0%{ transform: rotateZ(0); }
+	100%{ transform: rotateZ(360deg); }
+}

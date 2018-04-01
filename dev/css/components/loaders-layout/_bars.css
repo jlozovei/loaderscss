@@ -1,0 +1,25 @@
+.loader{
+	&--bar{
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: .725rem;
+		height: 4rem;
+		background-color: $lightBlue;
+		color: $lightBlue;
+		box-shadow: 0 0 0 0;
+
+		&:before, &:after{
+			content: '';
+			position: absolute;
+			display: block;
+			width: .725rem;
+			height: 4rem;
+			background-color: $lightBlue;
+			color: $lightBlue;
+		}
+
+		&:before{ left: -2.25rem; }
+		&:after{ right: -2.25rem; }
+	}
+}

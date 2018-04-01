@@ -1,0 +1,51 @@
+.loader{
+	&--square-translate{
+		width: 4rem;
+		height: 4rem;
+		background-color: $lightBlue;
+		animation: squareTranslate 3s linear infinite;
+	}
+
+	&--square-double{
+		width: 100%;
+		height: 100%;
+
+		&:before, &:after{
+			width: 1.5rem;
+			height: 1.5rem;
+			content: '';
+			background-color: $lightBlue;
+			position: absolute;
+			animation: squareDouble 2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+		}
+
+		&:before{
+			top: 0;
+			left: 0;
+			animation-delay: -1s;
+		}
+
+		&:after{
+			bottom: 0;
+			right: 0;
+		}
+	}
+
+	&--square-rotate{
+		width: 100%;
+		height: 100%;
+
+		&:before, &:after{
+			content: '';
+			position: absolute;
+			width: 4rem;
+			height: 4rem;
+			border: 1px solid $lightBlue;
+			top: 0;
+			left: calc(50% - 2rem);
+			animation: squareRotate 2.5s linear infinite;
+		}
+
+		&:before{ animation-delay: -275ms; }
+	}
+}

@@ -1,0 +1,43 @@
+/*
+*
+* Configuration
+*
+*/
+
+@import './settings/_custom-media.css';
+@import './settings/_colors.css';
+@import './settings/_sizes.css';
+
+
+
+@import './tools/_typography.css';
+@import './tools/_animations.css';
+
+
+
+@import './generic/_reset.css';
+
+
+
+/*
+*
+* Third party css
+*
+*/
+
+@import '../../node_modules/flexboxgrid/css/flexboxgrid.css';
+@import '../../node_modules/font-awesome/css/font-awesome.css';
+
+
+
+/*
+*
+* Project css
+*
+*/
+
+
+@import './components/_page.css';
+@import './components/_header.css';
+@import './components/_footer.css';
+@import './components/_loaders.css';

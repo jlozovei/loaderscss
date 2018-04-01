@@ -4,7 +4,10 @@
   "description": "Simple + awesome css-only crafted loaders",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "styles": "gulp styles",
+    "scripts": "gulp scritps"
   },
   "repository": {
     "type": "git",
@@ -17,11 +20,34 @@
   },
   "homepage": "https://github.com/jlozovei/loaderscss#readme",
   "dependencies": {
+    "clipboard": "^2.0.0",
+    "flexboxgrid": "^6.3.1",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
     "gulp": "^3.9.1",
-    "node-sass": "^4.7.2",
-    "sass-lint": "^1.12.1"
+    "gulp-babel": "^7.0.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "jshint": "^2.9.5",
+    "node-sass": "^4.8.3",
+    "postcss-clean": "^1.1.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-custom-selectors": "^4.0.1",
+    "precss": "^3.1.2",
+    "rucksack-css": "^1.0.2",
+    "sass-lint": "^1.12.1",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "uninstall": "0.0.0",
+    "webpack": "^4.4.1",
+    "webpack-stream": "^4.0.3"
   }
 }
