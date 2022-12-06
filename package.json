@@ -31,7 +31,7 @@
     "babel-register": "^6.26.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
-    "gulp-connect": "^5.5.0",
+    "gulp-connect": "^5.7.0",
     "gulp-jshint": "^2.1.0",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^7.0.1",
